@@ -109,3 +109,34 @@ button {
     font-size: 32px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 450px) {
+    * {
+        width: 25em;
+    }
+    .body{
+        align-items: flex-end;
+    }
+    .container {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .container__contenido {
+        flex-direction: column;
+        
+    }
+
+    .container__boton {
+        margin-top: 1rem;
+    }
+
+    .container__input {
+        margin-top: 1rem;
+    }
+    h1 {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 3em;
+        padding-bottom: 1rem;
+}
+}
